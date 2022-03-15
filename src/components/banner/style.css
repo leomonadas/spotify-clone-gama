@@ -1,0 +1,13 @@
+#banner {
+    background-color: #2941ab;
+    height: 80vh;
+    color: #1ed760;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner h1 {
+    
+}
