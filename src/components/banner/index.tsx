@@ -1,12 +1,15 @@
+import "./style.css";
+import Button from "../Buttons";
+
 function Banner () {
 
     return ( 
-    <main>
-        <h1>Escutar muda tudo</h1>
+    <main id="banner">
+        <h1>Escutar muda <br /> tudo</h1>
         <p>
             Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.
         </p>
-        <button>Baixe o Spotify Free</button>
+        <Button texto="Baixe o spotify free" variante="sucesso" />
     </main>
     )
 }

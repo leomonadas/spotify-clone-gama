@@ -6,8 +6,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 30px;
 }
 
 #banner h1 {
-    
+    font-size: 124px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#banner p {
+    font-weight: bold;
+    font-size: 18px;
 }
