@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+#socialbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}

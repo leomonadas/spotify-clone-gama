@@ -2,7 +2,6 @@ import "./style.css";
 import Button from "../Buttons";
 
 function Banner () {
-
     return ( 
     <main id="banner">
         <h1>Escutar muda <br /> tudo</h1>
