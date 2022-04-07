@@ -5,20 +5,19 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-    <div id="navbar">
-        <a href="."><img src={Logo} alt="Logo" /></a>
-        <ul id="headerlist">
-           
-            <li> <a href="">
-                <Link to="/sobre">Premium</Link>
-            </a></li>
-            <li><a href=".">Suporte</a></li>
-            <li><a href=".">Baixar</a></li>
-            <li><a>|</a></li>
-            <li><a href=".">Inscrever-se</a></li>
-            <li><a href=".">Entrar</a></li>
-        </ul>
-    </div>
+    <header id="navbar">
+      <div className="wrapper">
+        <img className="logo" src={Logo} alt="Logo Spotify" />
+        <nav>
+          <a href="."><Link to = "/premium">Premium</Link></a>
+          <a href=".">Suporte</a>
+          <a href=".">Baixar</a>
+          <p>|</p>
+          <a href=".">Inscrever-se</a>
+          <a href=".">Entrar</a>
+        </nav>
+      </div>
+    </header>
     )
 }
 

@@ -32,3 +32,9 @@ article {
     justify-content: space-around;
     padding: 3%;
 }
+
+.redes {
+    display: flex;
+    gap: 20px;
+  }
+  

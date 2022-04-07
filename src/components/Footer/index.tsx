@@ -1,6 +1,7 @@
 import "./style.css";
-import Button from "../Buttons";
+import BotaoSocial from "../BotaoSocial";
 import Logo from "../../assets/images/logo.png";
+import IconInsta from "../../assets/images/icon-insta.png";
 
 export default function Footer() {
     return ( 
@@ -26,11 +27,11 @@ export default function Footer() {
                         </ul>
                     </section>
                                                 
-                <ul id="socialbutton">
-                    <li><Button texto="" variante="instagram" /></li>
-                    <li><Button texto="" variante="twitter" /></li>
-                    <li><Button texto="" variante="facebook" /></li>                
-                </ul>
+                <div className="redes">
+                    <BotaoSocial link={IconInsta} titulo="insta" />
+                    <BotaoSocial link={IconInsta} titulo="insta" />
+                    <BotaoSocial link={IconInsta} titulo="insta" />              
+                </div>
                 {/* </article> */}
         </footer>
     )
