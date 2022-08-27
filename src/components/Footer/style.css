@@ -37,4 +37,15 @@ article {
     display: flex;
     gap: 20px;
   }
-  
+
+  a {
+    padding: 0.4rem;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #1ed760;
+}

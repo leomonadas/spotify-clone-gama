@@ -7,7 +7,7 @@ function Header() {
     return (
     <header id="navbar">
       <div className="wrapper">
-        <img className="logo" src={Logo} alt="Logo Spotify" />
+        <Link to="/"><img className="logo" src={Logo} alt="Logo Spotify" /></Link>
         <nav>
           <a href="."><Link to = "/premium">Premium</Link></a>
           <a href=".">Suporte</a>
