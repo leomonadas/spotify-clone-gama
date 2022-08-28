@@ -10,7 +10,7 @@
 .button:hover {
   cursor: pointer;
   transform: scale(1.05);
-  transition: transform 0.3s;
+  transition: transform 0.3s; 
 }
 
 .sucesso {
@@ -21,4 +21,23 @@
 .error {
   background-color: red;
   color: #fff;
+}
+
+.comecar {
+  background-color: #191414;
+  color: white ;
+  padding: 14px 32px;
+  width: 237px;
+}
+
+.black {
+  background-color: #191414;
+  color: white ;
+  padding: 14px 32px;
+}
+
+.outline-white{
+  background-color: transparent;
+  color: #fff;;
+  border: 2px solid rgb(255, 255, 255);
 }
